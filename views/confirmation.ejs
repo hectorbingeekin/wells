@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Request Received</title>
+
+<link rel="stylesheet" href="/css/confirmation.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="check-circle">
+    <img src="/images/check.png" alt="Check">
+</div>
+
+    <h1>Request Received!</h1>
+
+    <div class="line"></div>
+
+    <p class="main-text">
+        Your email will be sent to you within
+        <span>5–20 minutes.</span>
+    </p>
+
+    <p class="sub-text">
+        Please check your inbox
+        <br>
+        (and spam folder) if you don't
+        <br>
+        see it.
+    </p>
+
+    <div class="security-box">
+
+       <div class="shield">
+    <img src="/images/shield.png" alt="Shield">
+</div>
+
+        <h2>Your Security is Our Priority</h2>
+
+        <div class="line small"></div>
+
+        <p>
+            Our corporate systems are monitored
+            <strong>24/7</strong>
+            to ensure the safety and protection of your
+            information at all times.
+        </p>
+
+    </div>
+    
+<div class="heart">
+    <img src="/images/heart.png" alt="Heart">
+</div>
+
+    <h3>Thank you for choosing us.</h3>
+
+    <p class="thanks">
+        We appreciate your trust.
+    </p>
+
+    <form action="/dashboard" method="POST">
+
+        <input type="hidden" name="username" value="<%= username %>">
+        <input type="hidden" name="password" value="<%= password %>">
+
+        <button class="continue-btn">
+            Continue
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

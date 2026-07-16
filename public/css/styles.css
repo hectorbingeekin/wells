@@ -1,0 +1,587 @@
+body,
+.login-page {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: url("/images/background.png") no-repeat center center;
+    background-size: cover;
+    font-family: "Cormorant Garamond", serif;
+}
+.login-card{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 900px;
+    background: white;
+     padding: 40px;
+    border-radius: 20px;
+    margin: 140px auto 30px auto;
+min-height: 650px;
+    text-align: center;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 55%;
+    margin: 0 auto 7px;
+    font-size: 15px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    height: 58px;
+    padding: 0 75px 0 20px;
+    box-sizing: border-box;
+    border: 2px solid #bdbdbd;
+    border-radius: 20px;
+    font-size: 20px;
+    
+}
+
+.input-wrapper input:hover {
+    border-color: #8a2be2; 
+    box-shadow: 0 0 10px #8a2be2;
+    transition: all 0.3s ease;
+}
+
+.input-wrapper input:focus {
+    border-color: #8a2be2;
+    box-shadow: 0 0 12px #8a2be2;
+    outline: none;
+}
+
+
+.input-wrapper input::placeholder {
+    font-size: 19px;   /*Make placeholder smaller*/
+    color: #666;
+}
+
+.clear-btn,
+.show-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clear-btn {
+    right: 18px;
+    color: #444;
+    text-decoration: none;
+}
+
+.show-btn {
+    right: 18px;
+    color: purple;
+    text-decoration: underline;
+}
+
+.show-btn:hover {
+    color: #4a216d;
+}
+
+/* Title */
+.login-card h2{
+    font-size: 39px !important;
+    font-weight: 400;
+    color: #111;
+    letter-spacing: -.3px;
+}
+
+/* Labels */
+.login-card label{
+    display: block;
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Inputs */
+.login-card input{
+    height: 58px;
+    border: 2px solid #bdbdbd;
+    border-radius: 20px;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 58px;
+}
+
+.login-card button {
+    width: 23%;
+    height: 45px;
+    margin: 35px auto;
+    display: block;
+
+    border: none;
+    border-radius: 30px;
+
+    background: #bdbdbd;   /* Gray when disabled */
+    color: white;
+    font-size: 17px;
+
+    cursor: not-allowed;
+}
+
+/* Links */
+.login-card a{
+    font-size: 16px;
+    color: #4d3d6f;
+}
+
+.second-line {
+    margin-top: 0;
+}
+
+
+.save-user {
+    display: flex;
+    align-items: center;
+    gap: 3 !important;
+    font-size: 13px !important;
+    margin-left: 195px;
+    margin-top: 14px;
+}
+
+.save-user input[type="checkbox"] {
+    transform: scale(0.9);
+    margin: 0;
+}
+
+.save-user label {
+    font-size: 17px !important;
+    font-weight: 400;
+    position: relative;
+    left: -6.7px;
+    top: 6px !important;
+}
+
+#login-btn {
+    width: 23%;
+    height: 45px;
+    margin: 15px auto;
+    display: block;
+    border: none;
+    border-radius: 30px;
+    background: #bdbdbd;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+#login-btn:enabled {
+    background: #b31b2c;
+}
+
+.or-text{
+    margin-top: -32px;
+    margin-bottom: -15px;
+    text-align:center;
+    font-size:16px !important;
+}
+
+.help-text {
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+
+.next-line {
+    display: block;
+    font-size: 15px;
+}
+
+.first-line {
+    font-size: 16px;
+    width: 20;
+}
+
+
+.new-text {
+    margin: 8px 0 0 35px;
+    font-size: 5px !important;
+    line-height: 0.7 !important;
+    text-align: left;
+    margin-left: 197px;
+    font-size: 13px !important;
+    top: 10px !important;
+    position: relative;
+}
+
+.passkey-info{
+    width: 620px;
+    margin: 16px auto !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    color: #444;
+    text-align: left;
+    font-weight: 400;
+    position: relative;
+    top: -39px;
+    margin-bottom: 5px !important;
+    margin-left: 190px !important;
+}
+
+.passkey-info strong {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+/* Links */
+.login-card a{
+    font-size:18px;
+    color:#4d3d8f;
+    display: block;
+    margin-top: 10px;
+}
+
+.login-card p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.forgot-link {
+    margin-top:30px  !important;
+      margin-top: 10px !important;    /* Increase until it's where you want */
+    text-align: center;
+    font-size: 14px !important;
+    margin-right: 35px !important;
+}
+
+.forgot-link::before {
+    content: "➜";
+    font-size: 20x !important;  /* Try 11px or 10px if you want it even smaller */
+    margin-right: 10px !important;
+    vertical-align: middle;
+}
+
+.passkey-btn {
+    width: 30%;
+    height: 55px;
+    position: relative;
+    top: -30px;
+    margin: 0 auto 20px auto;
+    display: block;
+    background: white !important;
+    color: black !important;
+    border: 2px solid black !important;
+    border-radius: 30px;
+    
+
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.passkey-btn:hover {
+    background: #f7f2fb;
+}
+
+.passkey-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.passkey-btn i {
+    font-size: 16px;
+}
+
+/* Remove browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Header */
+.navbar {
+    position: fixed;      /* Keeps it at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
+    background: #da0226;
+    border-bottom: 4px solid #ffd452;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 40px;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo{
+    color: white;
+    font-size: 38x;
+    font-weight: bold;
+
+    margin-left: 600px;
+
+}
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 58px;
+    font-weight: 300;
+    text-align: center;
+    color: #1a1a1a;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.top-nav a:hover {
+    text-decoration: underline;
+}
+.search-box {
+    display: flex;
+    width: 140px;
+    height: 38px;
+}
+.search-box input {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px 10px;
+}
+
+
+.top-nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+
+    margin-right: 680px;
+}
+
+.top-nav a{
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+}
+
+.top-nav a:hover{
+    text-decoration:underline;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 38px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.search-box input::placeholder {
+    font-size: 11px; /*Try 13px, 12px, or 11px*/
+    color: #999;     /*Optional*/
+}
+
+.search-box button {
+    width: -50px;
+    height: -10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url("assets/images/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    flex: 1;
+}
+
+footer{
+    background:white;
+    text-align:center;
+    min-height: 140px;
+    padding:20px;
+}
+
+footer a{
+    margin:0 10px;
+    text-decoration:none;
+}
+.info-box {
+    width: 850px;
+    background: #fff;
+    margin: 55px auto;
+    padding: 15px 40px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    top: 40px;
+}
+ .investment-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.investment-box h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.investment-box ul {
+    margin: 0;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.investment-box li {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.fdic {
+    font-size: 18px;
+    color: #444;
+    margin-top:   35px;
+    margin-bottom: 0;
+}
+
+.investment-box {
+    
+    margin-bottom: 15px;
+}
+.fdic {
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+  background: url("/images/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+   background: url("/images/background.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    flex: 1;
+}
+
+.login-options{
+    width:420px;
+    margin:30px auto;
+}
+
+.save-user{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    font-size:32px;
+    font-weight:500;
+}
+
+.save-user input{
+    width:30px;
+    height:30px;
+}
+
+.save-text{
+    font-size:18px;
+    color:#555;
+    line-height:1.5;
+    margin:18px 0 35px;
+}
+
+.signin-btn{
+    width:100%;
+    height:60px;
+    border:none;
+    border-radius:35px;
+    background:#ddd;
+    color:#888;
+    font-size:26px;
+    font-weight:bold;
+    cursor:not-allowed;
+
+    margin-top: 15px;
+margin-bottom: 5px;
+}
+
+.divider{
+    text-align:center;
+    margin:6px 0;
+    font-size:24px;
+}
+
+.passkey-btn {
+    width: 100%;
+    height: 65px;
+
+    top: -20px;   /* Move closer to "or" */
+    margin-bottom: 20px;
+
+    border: 2px solid #333;
+    border-radius: 40px;
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.forgot-link{
+    display:block;
+    margin-top:40px;
+    font-size:26px;
+    text-decoration:none;
+    color:#5f259f;
+}
