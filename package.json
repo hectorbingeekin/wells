@@ -2,10 +2,10 @@
   "name": "wells-project",
   "version": "1.0.0",
   "description": "",
-  "main": "nova.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "nova.js","scripts": {
+  "start": "node server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
