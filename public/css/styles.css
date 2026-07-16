@@ -1,3 +1,5 @@
+/* Cleaned placeholder: original CSS below */
+
 body,
 .login-page {
     margin: 0;
@@ -9,7 +11,8 @@ body,
 }
 .login-card{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 900px;
+    width: 90px;
+    max-width:  900px;
     background: white;
      padding: 40px;
     border-radius: 20px;
@@ -447,7 +450,8 @@ footer a{
     text-decoration:none;
 }
 .info-box {
-    width: 850px;
+    width: 90px;
+    max-width: 850px;
     background: #fff;
     margin: 55px auto;
     padding: 15px 40px;
@@ -584,4 +588,59 @@ margin-bottom: 5px;
     font-size:26px;
     text-decoration:none;
     color:#5f259f;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .login-card {
+        width: 95%;
+        margin: 90px auto 20px;
+        padding: 25px;
+        min-height: auto;
+    }
+
+    .input-wrapper {
+        width: 100%;
+    }
+
+    .save-user,
+    .new-text,
+    .passkey-info {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    #login-btn,
+    .passkey-btn {
+        width: 100%;
+    }
+
+    .info-box {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .navbar {
+        padding: 0 15px;
+        height: 60px;
+    }
+
+    .logo {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .top-nav {
+        margin-right: 0;
+        gap: 10px;
+    }
+
+    .top-nav a {
+        font-size: 12px;
+    }
+
+    .search-box {
+        display: none;
+    }
 }
