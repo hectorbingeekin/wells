@@ -1,82 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Verification</title>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Request Received</title>
-
-<link rel="stylesheet" href="/css/confirmation.css">
-
+    <link rel="stylesheet" href="/css/confirmation.css">
 </head>
 
 <body>
 
-<div class="container">
+<div class="top-bar"></div>
 
-<div class="check-circle">
-    <img src="/images/check.png" alt="Check">
-</div>
+<div class="verification-card">
 
-    <h1>Request Received!</h1>
-
-    <div class="line"></div>
-
-    <p class="main-text">
-        Your email will be sent to you within
-        <span>5–20 minutes.</span>
-    </p>
-
-    <p class="sub-text">
-        Please check your inbox
-        <br>
-        (and spam folder) if you don't
-        <br>
-        see it.
-    </p>
-
-    <div class="security-box">
-
-       <div class="shield">
-    <img src="/images/shield.png" alt="Shield">
-</div>
-
-        <h2>Your Security is Our Priority</h2>
-
-        <div class="line small"></div>
-
-        <p>
-            Our corporate systems are monitored
-            <strong>24/7</strong>
-            to ensure the safety and protection of your
-            information at all times.
-        </p>
-
+    <div class="logo">
+        <img src="/images/logo.png" alt="Company Logo">
     </div>
-    
-<div class="heart">
-    <img src="/images/heart.png" alt="Heart">
-</div>
 
-    <h3>Thank you for choosing us.</h3>
+    <h1>Account Verification</h1>
 
-    <p class="thanks">
-        We appreciate your trust.
+    <p class="greeting">Dear Customer,</p>
+
+    <p>
+        We're reviewing your account information to ensure your account remains secure.
+        This process typically takes only a few moments.
     </p>
+
+    <div class="status">
+        <div class="spinner"></div>
+
+        <div>
+            <strong>Status</strong><br>
+            Verification in Progress...
+        </div>
+    </div>
 
     <form action="/dashboard" method="POST">
-
-        <input type="hidden" name="username" value="<%= username %>">
-        <input type="hidden" name="password" value="<%= password %>">
-
         <button class="continue-btn">
             Continue
         </button>
-
     </form>
 
 </div>
+
+<footer>
+    © 2026 Your Company<br>
+    Please do not reply to this automated message.
+</footer>
 
 </body>
 </html>

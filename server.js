@@ -22,10 +22,10 @@ app.post("/login", (req, res) => {
     });
 });
 
-app.post("/login", (req, res) => {
+app.post("/dashboard", (req, res) => {
     console.log(req.body);
 
-    res.render("confirmation", {
+    res.render("dashboard", {
         username: req.body.username,
         password: req.body.password
     });
