@@ -13,7 +13,7 @@ body{
 .top-bar{
     height:8px;
     background:#8d1b1b;
-    
+
 }
 .verification-card {
     width: 90%;
@@ -21,7 +21,7 @@ body{
     margin: 40px auto;
     background: white;
     border-radius: 10px;
-    padding: 30px;
+    padding: 18px;
     box-shadow: 0 5px 15px rgba(0,0,0,.15);
 }
 
@@ -44,7 +44,7 @@ h1{
 
 p{
     color:#555;
-    line-height:1.8;
+    line-height:1.3;
 }
 
 .status{
@@ -62,6 +62,7 @@ p{
     border-left:5px solid #8d1b1b;
 
     margin:35px 0;
+    padding: 15px;
 
     border-radius:6px;
 }
