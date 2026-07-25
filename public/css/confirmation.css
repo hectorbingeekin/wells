@@ -130,14 +130,19 @@ footer{
 @media screen and (max-width: 768px) {
 
     .verification-card{
-        width:95%;
-        padding:20px;
-        margin:20px auto;
+        margin-top:8px;
+        padding-top:12px;
+    }
+
+    .logo{
+        margin-bottom:8px;
     }
 
     h1{
-        font-size:28px;
+        margin-top:0;
+        margin-bottom:10px;
     }
+
 
     p{
         font-size:16px;
@@ -164,3 +169,4 @@ footer{
         padding:15px;
     }
 }
+
