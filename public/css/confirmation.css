@@ -13,23 +13,18 @@ body{
 .top-bar{
     height:8px;
     background:#8d1b1b;
+    
+}
+.verification-card {
+    width: 90%;
+    max-width: 650px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.15);
 }
 
-.verification-card{
-
-    width:650px;
-    max-width:90%;
-
-    margin:60px auto;
-
-    background:#fff;
-
-    border-radius:10px;
-
-    box-shadow:0 8px 25px rgba(0,0,0,.15);
-
-    padding:40px;
-}
 
 .logo img{
     width: 400px;
@@ -129,4 +124,42 @@ footer{
     color:#777;
 
     font-size:14px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .verification-card{
+        width:95%;
+        padding:20px;
+        margin:20px auto;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+    p{
+        font-size:16px;
+    }
+
+    .logo img{
+        width:170px;
+        height:auto;
+    }
+
+    .status{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .continue-btn{
+        width:100%;
+        font-size:18px;
+    }
+
+    footer{
+        font-size:13px;
+        padding:15px;
+    }
 }
