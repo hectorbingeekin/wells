@@ -128,11 +128,9 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-
-    .verification-card{
-        margin-top:8px;
-        padding-top:12px;
-    }
+.verification-card {
+    margin: 8px auto 20px;
+}
 
     .logo{
         margin-bottom:8px;
