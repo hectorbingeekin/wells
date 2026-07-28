@@ -696,3 +696,25 @@ passkey-btn {
     background: red !important;
     color: white !important;
 }
+
+#login-btn {
+    display: block !important;
+    width: 100% !important;
+    height: 48px !important;
+    margin: 15px auto 5px !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 35px !important;
+    box-sizing: border-box !important;
+    font-size: 17px !important;
+    line-height: 48px !important;
+}
+
+.or-text {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 12px 0 15px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
