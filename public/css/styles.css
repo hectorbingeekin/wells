@@ -208,6 +208,36 @@ min-height: 650px;
 }
 
 
+.new-text {
+    margin: 8px 0 0 35px;
+    font-size: 5px !important;
+    line-height: 0.7 !important;
+    text-align: left;
+    margin-left: 197px;
+    font-size: 13px !important;
+    top: 10px !important;
+    position: relative;
+}
+
+.passkey-info{
+    width: 620px;
+    margin: 16px auto !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    color: #444;
+    text-align: left;
+    font-weight: 400;
+    position: relative;
+    top: -39px;
+    margin-bottom: 5px !important;
+    margin-left: 190px !important;
+}
+
+.passkey-info strong {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
 /* Links */
 .login-card a{
     font-size:18px;
