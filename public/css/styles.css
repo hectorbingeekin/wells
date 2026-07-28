@@ -679,3 +679,14 @@ passkey-btn {
 .passkey-btn i {
     font-size: 13px;
 }
+
+.signin-btn {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    height: 48px !important;
+    margin: 15px auto 5px !important;
+    background: red !important;
+    color: white !important;
+}
