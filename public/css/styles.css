@@ -718,3 +718,19 @@ passkey-btn {
     padding: 0 !important;
     text-align: center !important;
 }
+
+#login-btn {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+#login-btn .or-text {
+    position: static !important;
+}
+
+.or-text {
+    position: relative !important;
+    z-index: 2 !important;
+    display: block !important;
+    margin: 12px 0 15px !important;
+}
