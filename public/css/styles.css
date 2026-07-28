@@ -773,3 +773,53 @@ passkey-btn {
 .passkey-btn i {
     font-size: 13px;
 }
+
+.signin-btn {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    height: 48px !important;
+    margin: 15px auto 5px !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 35px !important;
+    box-sizing: border-box !important;
+    color: white !important;
+    font-size: 17px !important;
+    line-height: 48px !important;
+    text-align: center !important;
+}
+
+
+.or-text {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    margin: 12px 0 15px !important;
+    padding: 0 !important;
+    text-align: center !important;
+}
+
+#login-btn {
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+#login-btn .or-text {
+    position: static !important;
+}
+
+.or-text {
+    position: relative !important;
+    z-index: 2 !important;
+    display: block !important;
+    margin: 12px 0 15px !important;
+}
+
+.or-text {
+    position: relative !important;
+    display: block !important;
+    margin: 15px 0 !important;
+    text-align: center !important;
+}
