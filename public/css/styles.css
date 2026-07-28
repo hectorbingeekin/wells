@@ -580,7 +580,7 @@ main {
     border: none !important;
     border-radius: 35px !important;
 
-    background: #b31b2c;
+    background: #b31b2c !important;
     color: white !important;
 
     font-size: 17px !important;
@@ -591,28 +591,26 @@ main {
     box-sizing: border-box;
 }
 
-/* Make sure the actual "Sign On" text is visible */
-.signin-btn::after {
-    content: none !important;
-}
-
 /* OR */
 .or-text {
     display: block !important;
     width: 100% !important;
-
     margin: 10px 0 !important;
     padding: 0 !important;
 
     text-align: center !important;
-
     font-size: 16px !important;
     line-height: 1.4 !important;
-    color: #555;
+    color: #555 !important;
 }
 
-/* PASSKEY BUTTON */
+/* USE A PASSKEY BUTTON */
 .passkey-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+
     width: 180px !important;
     min-width: 180px !important;
     height: 45px !important;
@@ -620,27 +618,21 @@ main {
     margin: 0 auto 12px !important;
     padding: 0 15px !important;
 
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-
-    gap: 7px;
-
     background: white !important;
-    color: #222 !important;
+    color: #333 !important;
 
     border: 2px solid #333 !important;
     border-radius: 25px !important;
 
-    font-size: 15px !important;
-    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
 
     cursor: pointer;
     box-sizing: border-box;
 }
 
 .passkey-btn i {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .passkey-btn:hover {
