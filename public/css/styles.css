@@ -53,7 +53,7 @@ min-height: 650px;
 
 
 .input-wrapper input::placeholder {
-    font-size: 19px;   /*Make placeholder smaller*/
+    font-size: 8px;   /*Make placeholder smaller*/
     color: #666;
 }
 
