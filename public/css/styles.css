@@ -568,8 +568,8 @@ main {
 /* SIGN ON BUTTON */
 .signin-btn {
     display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    align-items: center;
+    justify-content: center;
 
     width: 100% !important;
     height: 48px !important;
@@ -581,7 +581,7 @@ main {
     border-radius: 35px !important;
 
     background: #b3b3b3 !important;
-    color: #000 !important;
+    color: white !important;
 
     font-size: 17px !important;
     font-weight: bold !important;
@@ -591,57 +591,63 @@ main {
     box-sizing: border-box;
 }
 
+/* IMPORTANT: don't create/overlay another Sign On */
+.signin-btn::after {
+    content: none !important;
+}
+
+/* OR */
 .or-text {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
+    display: block !important;
 
     width: 100% !important;
-    margin: 8px 0 !important;
+    margin: 4px 0 !important;
+    padding: 0 !important;
 
-    font-size: 18px !important;
-    color: #555 !important;
-    line-height: 1 !important;
+    text-align: center !important;
+
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+
+    position: static !important;
 }
 
-.or-text::before,
-.or-text::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #aaa;
-    margin: 0 20px;
-}
-
-/* USE A PASSKEY BUTTON */
+/* PASSKEY BUTTON */
 .passkey-btn {
     display: flex !important;
     align-items: center;
     justify-content: center;
-    gap: 6px;
 
-    width: 180px !important;
-    min-width: 180px !important;
-    height: 45px !important;
+    width: auto !important;
+    min-width: 260px;
+    height: 48px !important;
 
-    margin: 0 auto 12px !important;
-    padding: 0 15px !important;
+    margin: 8px auto 0 !important;
+    padding: 0 28px !important;
+
+    border: 2px solid #333 !important;
+    border-radius: 35px !important;
 
     background: white !important;
     color: #333 !important;
 
-    border: 2px solid #333 !important;
-    border-radius: 25px !important;
-
-    font-size: 14px !important;
-    font-weight: 500 !important;
+    font-size: 17px !important;
+    font-weight: normal !important;
+    line-height: normal !important;
 
     cursor: pointer;
     box-sizing: border-box;
 }
 
+/* Keep the icon and words together */
 .passkey-btn i {
-    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Don't let a pseudo-element create another button */
+.passkey-btn::before,
+.passkey-btn::after {
+    content: none !important;
 }
 
 .passkey-btn:hover {
