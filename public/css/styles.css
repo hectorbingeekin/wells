@@ -824,3 +824,61 @@ passkey-btn {
     margin: 15px 0 !important;
     text-align: center !important;
 }
+
+/* FINAL LOGIN BUTTON FIX */
+button.signin-btn#signonBtn {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: 100% !important;
+    height: 48px !important;
+
+    margin: 15px 0 8px !important;
+    padding: 0 !important;
+
+    background: #b3b3b3 !important;
+    background-image: none !important;
+
+    border: none !important;
+    border-radius: 35px !important;
+
+    color: #000 !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    line-height: normal !important;
+
+    text-indent: 0 !important;
+    text-transform: none !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    box-sizing: border-box !important;
+}
+
+button.signin-btn#signonBtn::before,
+button.signin-btn#signonBtn::after {
+    content: none !important;
+    display: none !important;
+}
+
+/* OR separator */
+p.or-text {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    margin: 8px 0 !important;
+    color: #555 !important;
+    font-size: 18px !important;
+}
+
+p.or-text::before,
+p.or-text::after {
+    content: "" !important;
+    display: block !important;
+    flex: 1 !important;
+    height: 1px !important;
+    background: #aaa !important;
+    margin: 0 20px !important;
+}
