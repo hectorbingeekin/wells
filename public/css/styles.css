@@ -568,26 +568,15 @@ margin-bottom: 5px;
 }
 
 .passkey-btn {
-    width: fit-content;
-    min-width: 140px;
-    height: 35px;
-
-    margin: 0 auto 15px;
-    padding: 4px 10px;
-
-    border: 2px solid #333;
+    height: 38px;
+    padding: 5px 12px;
+    font-size: 14px;
     border-radius: 20px;
-    background: white;
-
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-
+    gap: 6px;
     white-space: nowrap;
     box-sizing: border-box;
 }
@@ -625,10 +614,14 @@ input::placeholder {
         width: 100%;
     }
 
-    #login-btn,
-    .passkey-btn {
-        width: auto;
-    }
+.login-btn {
+    width: 100%;
+}
+
+.passkey-btn {
+    width: fit-content;
+    min-width: 150px;
+}
 
     .info-box {
         width: 95%;
