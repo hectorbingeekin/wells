@@ -659,6 +659,7 @@ passkey-btn {
 
     font-size: 13px !important;
     border-radius: 18px !important;
+    font-weight: 600 !important;
 
     display: flex;
     align-items: center;
