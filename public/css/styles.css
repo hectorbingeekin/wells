@@ -53,7 +53,7 @@ min-height: 650px;
 
 
 .input-wrapper input::placeholder {
-    font-size: 14px;   /*Make placeholder smaller*/
+    font-size: 19px;   /*Make placeholder smaller*/
     color: #666;
 }
 
@@ -590,6 +590,10 @@ margin-bottom: 5px;
 
     white-space: nowrap;
     box-sizing: border-box;
+}
+
+input::placeholder {
+    font-size: 14px;
 }
 
 .forgot-link{
