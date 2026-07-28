@@ -568,8 +568,8 @@ main {
 /* SIGN ON BUTTON */
 .signin-btn {
     display: flex !important;
-    align-items: center;
-    justify-content: center;
+    align-items: center !important;
+    justify-content: center !important;
 
     width: 100% !important;
     height: 48px !important;
@@ -580,8 +580,8 @@ main {
     border: none !important;
     border-radius: 35px !important;
 
-    background: #b31b2c !important;
-    color: white !important;
+    background: #b3b3b3 !important;
+    color: #000 !important;
 
     font-size: 17px !important;
     font-weight: bold !important;
@@ -591,17 +591,26 @@ main {
     box-sizing: border-box;
 }
 
-/* OR */
 .or-text {
-    display: block !important;
-    width: 100% !important;
-    margin: 10px 0 !important;
-    padding: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 
-    text-align: center !important;
-    font-size: 16px !important;
-    line-height: 1.4 !important;
+    width: 100% !important;
+    margin: 8px 0 !important;
+
+    font-size: 18px !important;
     color: #555 !important;
+    line-height: 1 !important;
+}
+
+.or-text::before,
+.or-text::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #aaa;
+    margin: 0 20px;
 }
 
 /* USE A PASSKEY BUTTON */
