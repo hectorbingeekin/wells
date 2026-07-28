@@ -734,3 +734,35 @@ passkey-btn {
     display: block !important;
     margin: 12px 0 15px !important;
 }
+
+#login-btn {
+    position: relative !important;
+    display: block !important;
+    width: 100% !important;
+    height: 48px !important;
+    margin: 15px auto !important;
+    padding: 0 !important;
+}
+
+#login-btn::after {
+    content: "Sign On" !important;
+    position: absolute !important;
+    inset: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: white !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+}
+
+#login-btn {
+    color: transparent !important;
+}
+
+.or-text {
+    position: relative !important;
+    display: block !important;
+    margin: 15px 0 !important;
+    text-align: center !important;
+}
