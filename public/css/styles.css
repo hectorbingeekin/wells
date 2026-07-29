@@ -901,3 +901,41 @@ button.signin-btn#signonBtn {
     margin: 4px auto !important;
     font-size: 13px !important;
 }
+
+/* Match reference size */
+
+.login-card {
+    padding: 5px 15px !important;
+}
+
+/* Sign On */
+button.signin-btn#signonBtn {
+    width: 308px !important;
+    height: 45px !important;
+    font-size: 18px !important;
+    margin: 5px auto !important;
+}
+
+/* OR */
+.or-text {
+    font-size: 16px !important;
+    margin: 2px 0 5px !important;
+}
+
+/* Passkey */
+.passkey-btn {
+    width: 308px !important;
+    height: 45px !important;
+    font-size: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.passkey-btn i {
+    font-size: 14px !important;
+}
+
+/* Text under passkey */
+.passkey-info {
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+}
