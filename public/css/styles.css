@@ -1055,3 +1055,9 @@ body.login-page {
 .login-card h2 {
     transform: translateY(-10px);
 }
+
+.signin-btn,
+.or-text,
+.passkey-btn {
+    transform: translateY(20px) !important;
+}
