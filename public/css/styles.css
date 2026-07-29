@@ -245,7 +245,9 @@ body,
 }
 
 .forgot-link {
-    margin-top:35px  !important;
+    position: relative !important;
+    top: 30px !important;
+    margin-top: 10px !important;
     text-align: center;
     font-size: 14px !important;
     margin-right: 35px !important;
