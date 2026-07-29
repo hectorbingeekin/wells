@@ -1050,3 +1050,8 @@ body.login-page {
     margin-top: 30px !important;
     margin-bottom: 20px !important;
 }
+
+/* Move the login contents slightly lower */
+.login-card {
+    padding-top: 25px !important;
+}
