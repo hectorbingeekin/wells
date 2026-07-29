@@ -260,37 +260,6 @@ min-height: 650px;
     vertical-align: middle;
 }
 
-.passkey-btn {
-    width: 30%;
-    height: 55px;
-    position: static;
-    top: -30px;
-    margin: 0 auto 20px auto;
-    display: block;
-    background: white !important;
-    color: black !important;
-    border: 2px solid black !important;
-    border-radius: 30px;
-    
-
-    font-size: 15px;
-    cursor: pointer;
-}
-
-.passkey-btn:hover {
-    background: #f7f2fb;
-}
-
-.passkey-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-}
-
-.passkey-btn i {
-    font-size: 16px;
-}
 
 /* Remove browser spacing */
 * {
@@ -591,47 +560,6 @@ main {
 }
 
 
-/* PASSKEY BUTTON */
-.passkey-btn {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-
-    width: auto !important;
-    min-width: 260px;
-    height: 48px !important;
-
-    margin: 8px auto 0 !important;
-    padding: 0 28px !important;
-
-    border: 2px solid #333 !important;
-    border-radius: 35px !important;
-
-    background: white !important;
-    color: #333 !important;
-
-    font-size: 17px !important;
-    font-weight: normal !important;
-    line-height: normal !important;
-
-    cursor: pointer;
-    box-sizing: border-box;
-}
-
-/* Keep the icon and words together */
-.passkey-btn i {
-    margin-right: 10px;
-}
-
-/* Don't let a pseudo-element create another button */
-.passkey-btn::before,
-.passkey-btn::after {
-    content: none !important;
-}
-
-.passkey-btn:hover {
-    background: #f7f2fb !important;
-}
 
 /* Passkey explanation */
 .passkey-info {
@@ -705,10 +633,6 @@ main {
         width: 100% !important;
     }
 
-    .passkey-btn {
-        width: 180px !important;
-        min-width: 180px !important;
-    }
 }
 
     .info-box {
@@ -739,22 +663,6 @@ main {
         display: none;
     }
 
-passkey-btn {
-    width: 140px !important;
-    min-width: 140px !important;
-    height: 32px !important;
-    padding: 4px 8px !important;
-
-    font-size: 13px !important;
-    border-radius: 18px !important;
-    font-weight: 600 !important;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5px;
-    box-sizing: border-box;
-}
 
 .passkey-btn i {
     font-size: 13px;
@@ -870,29 +778,79 @@ p.or-text::after {
     margin-left: 20px;
 }
 
-/* FINAL PASSKEY FIX */
-.passkey-btn {
-    display: flex;
+
+/* SIGN ON */
+.signin-btn {
+    display: flex !important;
     align-items: center;
     justify-content: center;
 
-    width: 315px;
-    height: 55px;
+    width: 308px !important;
+    height: 76px !important;
 
-    margin: 15px auto 20px;
+    margin: 15px auto 10px !important;
+    padding: 0 !important;
 
-    background: white;
-    color: #333;
+    border: none !important;
+    border-radius: 40px !important;
 
-    border: 2px solid #333;
-    border-radius: 30px;
+    background: #dedadb !important;
+    color: #b9b5b6 !important;
 
-    font-size: 17px;
-    line-height: 1.2;
+    font-size: 28px !important;
+    font-weight: 600 !important;
+}
 
-    position: static;
+/* OR */
+.or-text {
+    display: block !important;
+    width: 100% !important;
+
+    margin: 10px 0 12px !important;
+    padding: 0 !important;
+
+    text-align: center !important;
+
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+    color: #222 !important;
+
+    position: static !important;
+}
+
+/* No lines beside "or" */
+.or-text::before,
+.or-text::after {
+    display: none !important;
+}
+
+/* PASSKEY */
+.passkey-btn {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    width: 308px !important;
+    height: 76px !important;
+
+    margin: 0 auto 20px !important;
+    padding: 0 !important;
+
+    background: white !important;
+    color: #333 !important;
+
+    border: 1.5px solid #333 !important;
+    border-radius: 40px !important;
+
+    font-size: 26px !important;
+    font-weight: 600 !important;
+
+    position: static !important;
+    top: auto !important;
+    transform: none !important;
 }
 
 .passkey-btn i {
-    margin-right: 10px;
+    margin-right: 8px !important;
+    font-size: 25px !important;
 }
