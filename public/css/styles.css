@@ -408,11 +408,12 @@ main {
     flex: 1;
 }
 
-footer{
-    background:white;
-    text-align:center;
+footer {
+    background: white;
+    text-align: center;
     min-height: 140px;
-    padding:20px;
+    padding: 20px;
+    margin-top: 25px;   /* Push footer down */
 }
 
 footer a{
