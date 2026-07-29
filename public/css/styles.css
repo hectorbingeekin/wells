@@ -931,6 +931,7 @@ button.signin-btn#signonBtn {
 .passkey-info {
     font-size: 12px !important;
     line-height: 1.2 !important;
+    margin-top: 25px !important;
 }
 
 /* FINAL SMALLER VERSION */
