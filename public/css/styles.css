@@ -245,8 +245,7 @@ body,
 }
 
 .forgot-link {
-    margin-top:30px  !important;
-      margin-top: 10px !important;    /* Increase until it's where you want */
+    margin-top:35px  !important;
     text-align: center;
     font-size: 14px !important;
     margin-right: 35px !important;
