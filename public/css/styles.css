@@ -561,36 +561,29 @@ main {
 }
 
 
-
 /* Passkey explanation */
 .passkey-info {
     width: 100% !important;
-
-    margin: 0 auto 0px !important;
+    margin: 8px auto 0 !important;
     padding: 0 !important;
-
     position: static !important;
 
     font-size: 13px !important;
     line-height: 1.4 !important;
-
     color: #444;
     text-align: center;
-
     font-weight: 400;
 }
 
 /* Forgot username/password */
 .forgot-link {
     display: block !important;
-    
-    margin: 30px auto 0 !important;
-    padding: 0 !important;
-    
-    text-align: center !important;
+
+    margin: 35px auto 0 !important;
+
+    text-align: center;
     font-size: 14px !important;
-    line-height: 1.4 !important;
-    
+
     text-decoration: none;
     color: #5f259f;
 }
