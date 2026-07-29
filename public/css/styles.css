@@ -933,7 +933,7 @@ button.signin-btn#signonBtn {
 
 /* Text under passkey */
 .passkey-info {
-    font-size: 12px !important;
+    font-size: 16px !important;
     line-height: 1.2 !important;
 }
 
