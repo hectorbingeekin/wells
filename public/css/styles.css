@@ -1004,13 +1004,13 @@ button.signin-btn#signonBtn {
 /* FINAL BUTTON SIZE */
 
 button.signin-btn#signonBtn {
-    width: 240px !important;
-    min-width: 240px !important;
-    max-width: 240px !important;
+    width: 210px !important;
+    min-width: 210px !important;
+    max-width: 210px !important;
 }
 
 .login-card .passkey-btn {
-    width: 240px !important;
-    min-width: 240px !important;
-    max-width: 240px !important;
+    width: 210px !important;
+    min-width: 210px !important;
+    max-width: 210px !important;
 }
