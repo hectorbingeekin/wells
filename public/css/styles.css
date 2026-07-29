@@ -263,7 +263,7 @@ min-height: 650px;
 .passkey-btn {
     width: 30%;
     height: 55px;
-    position: relative;
+    position: static;
     top: -30px;
     margin: 0 auto 20px auto;
     display: block;
@@ -825,16 +825,6 @@ button.signin-btn#signonBtn::after {
     display: none !important;
 }
 
-/* OR separator */
-p.or-text {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    width: 100% !important;
-    margin: 8px 0 !important;
-    color: #555 !important;
-    font-size: 18px !important;
-}
 
 p.or-text::before,
 p.or-text::after {
@@ -878,4 +868,34 @@ p.or-text::after {
 
 .or-text::after {
     margin-left: 20px;
+}
+
+/* FINAL PASSKEY FIX */
+.passkey-btn {
+    position: static !important;
+    top: auto !important;
+    transform: none !important;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    width: 315px !important;
+    min-width: 315px !important;
+    height: 84px !important;
+
+    margin: 15px auto 20px !important;
+
+    background: white !important;
+    color: #333 !important;
+
+    border: 2px solid #333 !important;
+    border-radius: 45px !important;
+
+    font-size: 17px !important;
+    line-height: 1.2 !important;
+}
+
+.passkey-btn i {
+    margin-right: 10px;
 }
