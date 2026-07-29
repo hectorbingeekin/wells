@@ -1033,3 +1033,15 @@ body.login-page {
 .info-box {
     display: none !important;
 }
+
+.login-card {
+    padding-top: 30px !important;
+}
+
+.login-card .new-text {
+    margin-bottom: 10px !important;
+}
+
+.login-card .signin-btn {
+    margin-top: 5px !important;
+}
