@@ -807,3 +807,36 @@ button.signin-btn#signonBtn::after {
     margin-right: 8px !important;
     font-size: 18px !important;
 }
+
+/* FINAL SIZE FIX */
+
+.signin-btn {
+    width: 308px !important;
+    height: 55px !important;
+    margin: 10px auto 5px !important;
+
+    font-size: 22px !important;
+    border-radius: 30px !important;
+}
+
+
+.or-text {
+    margin: 5px 0 10px !important;
+    font-size: 18px !important;
+}
+
+
+.passkey-btn {
+    width: 308px !important;
+    height: 55px !important;
+    margin: 0 auto 15px !important;
+
+    font-size: 18px !important;
+    border-radius: 30px !important;
+}
+
+
+.passkey-btn i {
+    font-size: 16px !important;
+    margin-right: 6px !important;
+}
