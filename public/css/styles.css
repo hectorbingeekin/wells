@@ -840,3 +840,39 @@ button.signin-btn#signonBtn::after {
     font-size: 16px !important;
     margin-right: 6px !important;
 }
+
+/* Tighten the login section */
+.login-card {
+    padding: 15px 25px !important;
+}
+
+/* Description above buttons */
+.login-card .security-text {
+    margin-bottom: 15px !important;
+}
+
+/* Sign On */
+.signin-btn {
+    margin: 5px auto 5px !important;
+}
+
+/* OR */
+.or-text {
+    margin: 3px 0 5px !important;
+}
+
+/* Passkey */
+.passkey-btn {
+    margin: 0 auto 10px !important;
+}
+
+/* Passkey explanation */
+.passkey-info {
+    margin: 5px auto 10px !important;
+    line-height: 1.35 !important;
+}
+
+/* Forgot username/password */
+.forgot-link {
+    margin-top: 5px !important;
+}
