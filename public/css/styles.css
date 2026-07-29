@@ -733,7 +733,6 @@ button.signin-btn#signonBtn::after {
     display: none !important;
 }
 
-
 /* SIGN ON */
 .signin-btn {
     display: flex !important;
@@ -756,6 +755,7 @@ button.signin-btn#signonBtn::after {
     font-weight: 600 !important;
 }
 
+
 /* OR */
 .or-text {
     display: block !important;
@@ -773,11 +773,11 @@ button.signin-btn#signonBtn::after {
     position: static !important;
 }
 
-/* No lines beside "or" */
 .or-text::before,
 .or-text::after {
     display: none !important;
 }
+
 
 /* PASSKEY */
 .passkey-btn {
@@ -786,7 +786,7 @@ button.signin-btn#signonBtn::after {
     justify-content: center;
 
     width: 308px !important;
-    height: 76px !important;
+    height: 55px !important;
 
     margin: 0 auto 20px !important;
     padding: 0 !important;
@@ -801,6 +801,8 @@ button.signin-btn#signonBtn::after {
     font-weight: 600 !important;
 
     position: static !important;
+    top: auto !important;
+    transform: none !important;
 }
 
 .passkey-btn i {
