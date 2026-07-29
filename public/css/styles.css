@@ -526,7 +526,8 @@ main {
     font-size: 13px !important;
     line-height: 1.3 !important;
     text-align: left;
-    position: static;
+    position: relative;
+    top: 10px;
 }
 
 /* SIGN ON BUTTON */
