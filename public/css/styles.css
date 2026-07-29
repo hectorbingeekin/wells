@@ -872,28 +872,25 @@ p.or-text::after {
 
 /* FINAL PASSKEY FIX */
 .passkey-btn {
-    position: static !important;
-    top: auto !important;
-    transform: none !important;
-
-    display: flex !important;
+    display: flex;
     align-items: center;
     justify-content: center;
 
-    width: 315px !important;
-    min-width: 315px !important;
-    height: 84px !important;
+    width: 315px;
+    height: 55px;
 
-    margin: 15px auto 20px !important;
+    margin: 15px auto 20px;
 
-    background: white !important;
-    color: #333 !important;
+    background: white;
+    color: #333;
 
-    border: 2px solid #333 !important;
-    border-radius: 45px !important;
+    border: 2px solid #333;
+    border-radius: 30px;
 
-    font-size: 17px !important;
-    line-height: 1.2 !important;
+    font-size: 17px;
+    line-height: 1.2;
+
+    position: static;
 }
 
 .passkey-btn i {
