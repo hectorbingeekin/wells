@@ -11,7 +11,7 @@ body,
 }
 .login-card{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 90px;
+    width: 90%;
     max-width:  900px;
     background: white;
      padding: 40px;
@@ -304,7 +304,7 @@ body {
 
 .logo{
     color: white;
-    font-size: 38x;
+    font-size: 38px;
     font-weight: bold;
 
     margin-left: 600px;
@@ -731,51 +731,6 @@ button.signin-btn#signonBtn::before,
 button.signin-btn#signonBtn::after {
     content: none !important;
     display: none !important;
-}
-
-
-p.or-text::before,
-p.or-text::after {
-    content: "" !important;
-    display: block !important;
-    flex: 1 !important;
-    height: 1px !important;
-    background: #aaa !important;
-    margin: 0 20px !important;
-}
-
-.or-text {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-
-    width: 100%;
-    height: 24px;
-
-    margin: 12px 0 !important;
-    padding: 0;
-
-    font-size: 18px !important;
-    line-height: 24px !important;
-    color: #555;
-
-    position: static !important;
-}
-
-.or-text::before,
-.or-text::after {
-    content: "";
-    flex: 1;
-    height: 1px;
-    background: #aaa;
-}
-
-.or-text::before {
-    margin-right: 20px;
-}
-
-.or-text::after {
-    margin-left: 20px;
 }
 
 
