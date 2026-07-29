@@ -1051,7 +1051,6 @@ body.login-page {
     margin-bottom: 20px !important;
 }
 
-/* Move the login contents slightly lower */
 .login-card {
-    padding-top: 25px !important;
+    transform: translateY(20px) !important;
 }
