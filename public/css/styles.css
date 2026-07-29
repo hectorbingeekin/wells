@@ -182,12 +182,6 @@ min-height: 650px;
     background: #b31b2c;
 }
 
-.or-text {
-    margin-top: 12px !important;
-    margin-bottom: 15px !important;
-    text-align: center !important;
-    font-size: 16px !important;
-}
 
 .help-text {
     text-align: center;
@@ -596,21 +590,6 @@ main {
     content: none !important;
 }
 
-/* OR */
-.or-text {
-    display: block !important;
-
-    width: 100% !important;
-    margin: 4px 0 !important;
-    padding: 0 !important;
-
-    text-align: center !important;
-
-    font-size: 16px !important;
-    line-height: 1.2 !important;
-
-    position: static !important;
-}
 
 /* PASSKEY BUTTON */
 .passkey-btn {
@@ -799,14 +778,6 @@ passkey-btn {
 }
 
 
-.or-text {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
-    margin: 12px 0 15px !important;
-    padding: 0 !important;
-    text-align: center !important;
-}
 
 #login-btn {
     position: relative !important;
@@ -815,20 +786,6 @@ passkey-btn {
 
 #login-btn .or-text {
     position: static !important;
-}
-
-.or-text {
-    position: relative !important;
-    z-index: 2 !important;
-    display: block !important;
-    margin: 12px 0 15px !important;
-}
-
-.or-text {
-    position: relative !important;
-    display: block !important;
-    margin: 15px 0 !important;
-    text-align: center !important;
 }
 
 /* FINAL LOGIN BUTTON FIX */
