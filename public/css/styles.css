@@ -949,7 +949,7 @@ button.signin-btn#signonBtn {
 
 /* Sign On */
 button.signin-btn#signonBtn {
-    width: 308px !important;
+    width: 260px !important;
     height: 38px !important;
     margin: 3px auto !important;
 
@@ -965,7 +965,7 @@ button.signin-btn#signonBtn {
 
 /* Passkey */
 .passkey-btn {
-    width: 308px !important;
+    width: 260px !important;
     height: 38px !important;
     margin: 0 auto 5px !important;
 
