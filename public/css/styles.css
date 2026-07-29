@@ -1061,3 +1061,7 @@ body.login-page {
 .passkey-btn {
     transform: translateY(20px) !important;
 }
+
+.passkey-note {
+    margin-top: 20px;
+}
