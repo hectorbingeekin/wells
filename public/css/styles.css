@@ -840,39 +840,57 @@ button.signin-btn#signonBtn::after {
     font-size: 16px !important;
     margin-right: 6px !important;
 }
+/* TIGHT LOGIN CARD */
 
-/* Tighten the login section */
 .login-card {
-    padding: 15px 25px !important;
+    padding: 8px 25px !important;
 }
 
-/* Description above buttons */
+/* Security message */
 .login-card .security-text {
-    margin-bottom: 15px !important;
+    margin-bottom: 8px !important;
 }
 
 /* Sign On */
 .signin-btn {
-    margin: 5px auto 5px !important;
+    width: 308px !important;
+    height: 55px !important;
+    margin: 5px auto 3px !important;
+
+    font-size: 22px !important;
+    border-radius: 30px !important;
 }
 
 /* OR */
 .or-text {
     margin: 3px 0 5px !important;
+    font-size: 18px !important;
 }
 
 /* Passkey */
 .passkey-btn {
-    margin: 0 auto 10px !important;
+    width: 308px !important;
+    height: 55px !important;
+    margin: 0 auto 6px !important;
+
+    font-size: 18px !important;
+    border-radius: 30px !important;
+}
+
+/* Passkey icon */
+.passkey-btn i {
+    font-size: 16px !important;
+    margin-right: 6px !important;
 }
 
 /* Passkey explanation */
 .passkey-info {
-    margin: 5px auto 10px !important;
-    line-height: 1.35 !important;
+    margin: 4px auto 6px !important;
+    line-height: 1.2 !important;
 }
 
-/* Forgot username/password */
+/* Forgot link */
 .forgot-link {
-    margin-top: 5px !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
 }
