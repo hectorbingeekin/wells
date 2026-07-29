@@ -560,16 +560,15 @@ main {
     content: none !important;
 }
 
-
-/* Passkey explanation */
 .passkey-info {
     width: 100% !important;
-    margin: 8px auto 0 !important;
+    margin: 0 auto 35px !important;
     padding: 0 !important;
     position: static !important;
 
-    font-size: 13px !important;
-    line-height: 1.4 !important;
+    font-size: 16px !important;
+    line-height: 1.35 !important;
+
     color: #444;
     text-align: center;
     font-weight: 400;
@@ -577,15 +576,10 @@ main {
 
 /* Forgot username/password */
 .forgot-link {
-    display: block !important;
-
-    margin: 35px auto 0 !important;
-
+    display: block;
+    margin: 0 auto 0 !important;
     text-align: center;
-    font-size: 14px !important;
-
-    text-decoration: none;
-    color: #5f259f;
+    font-size: 16px !important;
 }
 
 .forgot-link::before {
@@ -933,7 +927,7 @@ button.signin-btn#signonBtn {
 
 /* Text under passkey */
 .passkey-info {
-    font-size: 16px !important;
+    font-size: 12px !important;
     line-height: 1.2 !important;
 }
 
