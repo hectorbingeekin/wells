@@ -671,7 +671,6 @@ main {
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
-    width: 100% !important;
     height: 48px !important;
     margin: 15px auto 5px !important;
     padding: 0 !important;
@@ -701,7 +700,8 @@ button.signin-btn#signonBtn {
     align-items: center !important;
     justify-content: center !important;
 
-    width: 100% !important;
+    width: 240px !important;
+    max-width: 240px !important;
     height: 48px !important;
 
     margin: 15px 0 8px !important;
@@ -989,4 +989,14 @@ button.signin-btn#signonBtn {
 .forgot-link {
     margin: 2px auto !important;
     font-size: 13px !important;
+}
+
+button.signin-btn#signonBtn {
+    width: 240px !important;
+    max-width: 240px !important;
+}
+
+.login-card .passkey-btn {
+    width: 240px !important;
+    max-width: 240px !important;
 }
