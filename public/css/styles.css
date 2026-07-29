@@ -1004,13 +1004,32 @@ button.signin-btn#signonBtn {
 /* FINAL BUTTON SIZE */
 
 button.signin-btn#signonBtn {
-    width: 210px !important;
-    min-width: 210px !important;
-    max-width: 210px !important;
+    width: 110px !important;
+    min-width: 110px !important;
+    max-width: 150px !important;
 }
 
 .login-card .passkey-btn {
-    width: 210px !important;
-    min-width: 210px !important;
-    max-width: 210px !important;
+    width: 110px !important;
+    min-width: 110px !important;
+    max-width: 110px !important;
+}
+
+/* Make login page clean and full width */
+body.login-page {
+    background: #fff !important;
+}
+
+.login-card {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+    box-sizing: border-box !important;
+}
+
+/* Remove investment/insurance box */
+.info-box {
+    display: none !important;
 }
