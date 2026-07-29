@@ -566,7 +566,7 @@ main {
 .passkey-info {
     width: 100% !important;
 
-    margin: 0 auto 20px !important;
+    margin: 0 auto 0px !important;
     padding: 0 !important;
 
     position: static !important;
