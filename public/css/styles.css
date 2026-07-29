@@ -939,3 +939,61 @@ button.signin-btn#signonBtn {
     font-size: 12px !important;
     line-height: 1.2 !important;
 }
+
+
+/* FINAL REFERENCE MATCH */
+
+.login-card {
+    width: 100% !important;
+    max-width: 700px !important;
+    padding: 5px 20px !important;
+    margin: 0 auto !important;
+    min-height: 0 !important;
+}
+
+/* Sign On */
+button.signin-btn#signonBtn {
+    width: 308px !important;
+    max-width: 308px !important;
+    height: 45px !important;
+    margin: 5px auto !important;
+
+    font-size: 18px !important;
+    border-radius: 30px !important;
+}
+
+/* OR */
+.or-text {
+    margin: 2px 0 5px !important;
+    font-size: 16px !important;
+}
+
+/* Passkey */
+.passkey-btn {
+    width: 308px !important;
+    max-width: 308px !important;
+    height: 45px !important;
+    margin: 0 auto 6px !important;
+
+    font-size: 16px !important;
+    border-radius: 30px !important;
+}
+
+.passkey-btn i {
+    font-size: 14px !important;
+    margin-right: 5px !important;
+}
+
+/* Text below passkey */
+.passkey-info {
+    width: 100% !important;
+    margin: 4px auto 5px !important;
+    font-size: 12px !important;
+    line-height: 1.2 !important;
+}
+
+/* Forgot link */
+.forgot-link {
+    margin: 3px auto !important;
+    font-size: 13px !important;
+}
