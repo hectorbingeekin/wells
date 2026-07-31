@@ -1076,7 +1076,7 @@ body.login-page {
 .login-card h2 {
     margin-top: 30px !important;
     margin-bottom: 10px !important;
-    font-size: 38px !important;
+    font-size: 35px !important;
 }
 
 .login-card {
@@ -1122,4 +1122,27 @@ body {
 
 body.login-page {
     background: #ffffff !important;
+}
+
+.menu-icon {
+    position: absolute;
+    top: 18px;
+    right: 20px;
+
+    width: 28px;
+    height: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+
+.menu-icon span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+    border-radius: 2px;
 }
