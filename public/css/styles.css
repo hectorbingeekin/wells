@@ -632,7 +632,24 @@ main {
         width: 100% !important;
     }
 
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(80px + env(safe-area-inset-top));
+        padding-top: env(safe-area-inset-top);
+        background: #d71920;
+        border-bottom: 4px solid #f5c242;
+        z-index: 9999;
+    }
+
+    body {
+        padding-top: calc(80px + env(safe-area-inset-top));
+    }
+
 }
+
 
     .info-box {
         width: 95%;
