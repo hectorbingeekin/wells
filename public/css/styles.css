@@ -1071,13 +1071,12 @@ body.login-page {
     transform: translateY(20px) !important;
 }
 
-/* Move Forgot username/password down */
 .forgot-link {
-    position: relative !important;
-    top: 20px !important;   /* Increase to 25px or 30px if needed */
+    display: block !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
 }
 
-/* Move the footer links down */
 footer {
-    margin-top: 40px !important;   /* Increase this value if you want more space */
+    margin-top: 30px !important;
 }
