@@ -501,7 +501,7 @@ main {
 .save-user {
     display: flex;
     align-items: center;
-    gap: 2px !important;
+    gap: -5px !important;
     font-size: 17px;
     font-weight: 400;
     margin: 15px 0 8px;
