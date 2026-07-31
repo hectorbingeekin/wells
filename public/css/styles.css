@@ -517,7 +517,8 @@ main {
     font-size: 17px !important;
     font-weight: 400;
     margin: 0;
-    position: static;
+    position: relative;
+    left: -8px;
 }
 
 /* Security text */
