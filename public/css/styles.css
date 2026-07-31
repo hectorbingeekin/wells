@@ -1068,7 +1068,7 @@ body.login-page {
 }
 
 .passkey-info {
-    transform: translateY(20px) !important;
+    transform: translateY(25px) !important;
 }
 
 .forgot-link {
