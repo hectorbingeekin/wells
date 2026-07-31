@@ -974,7 +974,7 @@ button.signin-btn#signonBtn {
 
 /* Passkey explanation */
 .passkey-info {
-    margin: 3px auto 4px !important;
+    margin: 10px auto 4px !important;
     font-size: 12px !important;
     line-height: 1.15 !important;
 }
