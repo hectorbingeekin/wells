@@ -656,10 +656,19 @@ main {
         padding: 20px;
     }
 
-    .navbar {
-        padding: 0 15px;
-        height: 60px;
-    }
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(60px + env(safe-area-inset-top));
+    padding-top: env(safe-area-inset-top);
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #da0226;
+    border-bottom: 4px solid #ffd452;
+    z-index: 99999;
+}
 
     .logo {
         margin-left: 0;
@@ -1103,4 +1112,13 @@ body.login-page {
 
 footer {
     margin-top: 30px !important;
+}
+
+html,
+body {
+    background: #da0226 !important;
+}
+
+body.login-page {
+    background: #ffffff !important;
 }
