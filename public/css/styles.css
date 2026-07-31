@@ -1066,3 +1066,7 @@ body.login-page {
 .passkey-note {
     margin-top: 20px;
 }
+
+.passkey-info {
+    transform: translateY(20px) !important;
+}
