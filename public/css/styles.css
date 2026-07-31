@@ -1127,22 +1127,23 @@ body.login-page {
 .menu-icon {
     position: absolute;
     top: 18px;
-    right: 20px;
+    right: 18px;
 
-    width: 26px;
+    width: 22px;
     height: 16px;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-end;
 
-    cursor: pointer;
+    z-index: 1000;
 }
 
 .menu-icon span {
     display: block;
-    width: 26%;
+    width: 22px;
     height: 2px;
-    background: white;
+    background: #fff;
     border-radius: 2px;
 }
