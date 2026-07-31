@@ -305,11 +305,14 @@ body {
 
 .logo{
     color: white;
-    font-size: 38px;
+    font-size: 32px;
     font-weight: bold;
 
     margin-left: 80px !important;
     margin-top: 11px;
+    letter-spacing: 0.5px;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
 
 }
 h2 {
