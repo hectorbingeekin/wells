@@ -297,7 +297,7 @@ body {
 .logo {
     font-family: 'Libre Baskerville', serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 36px;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
@@ -305,7 +305,7 @@ body {
 
 .logo{
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 
     margin-left: 90px !important;
