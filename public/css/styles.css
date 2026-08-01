@@ -1098,8 +1098,7 @@ body.login-page {
 .or-text,
 .passkey-btn {
     transform: translateY(20px) !important;
-    pointer-events: none !important;
-    cursor: default !important;
+ 
 }
 
 .passkey-note {
@@ -1153,7 +1152,7 @@ body.login-page {
     border-radius: 999px;
 }
 
-.passkey-link {
-    pointer-events: none;
-    cursor: default;
+.passkey-btn {
+pointer-events: none;
+cursor: default;
 }
