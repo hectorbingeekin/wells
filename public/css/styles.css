@@ -1150,3 +1150,8 @@ body.login-page {
     background: #fff;
     border-radius: 999px;
 }
+
+.passkey-link {
+    pointer-events: none;
+    cursor: default;
+}
