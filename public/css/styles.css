@@ -524,8 +524,9 @@ main {
     font-weight: 400;
     margin: 0;
     position: relative;
-    left: -8px;
+    left: 0px;
     transform: translateY(-4px);
+    gap: 5px;
 }
 
 /* Security text */
