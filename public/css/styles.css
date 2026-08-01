@@ -145,7 +145,7 @@ body,
 }
 
 .save-user input[type="checkbox"] {
-    transform: scale(1.3);
+    transform: scale(1.0);
     margin: 0;
 }
 
