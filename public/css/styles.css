@@ -1098,6 +1098,8 @@ body.login-page {
 .or-text,
 .passkey-btn {
     transform: translateY(20px) !important;
+    pointer-events: none !important;
+    cursor: default !important;
 }
 
 .passkey-note {
