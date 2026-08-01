@@ -308,11 +308,12 @@ body {
     font-size: 20px;
     font-weight: bold;
 
-    margin-left: 90px !important;
+    margin-left: 100px !important;
     margin-top: 11px;
     letter-spacing: 0.5px;
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
+    top: 22px;
 
 }
 h2 {
